@@ -46,3 +46,61 @@ nav ul li {
 .navbar-nav > li > a:hover {
   border-top: 3px solid var(--yellow);
 }
+
+/* header */
+.header-wrapper {
+  position: relative;
+  background: url(hero.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+.main-info {
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.main-info h1 {
+  color: var(--yellow);
+  text-transform: uppercase;
+  font-size: 3rem;
+}
+.typed-text {
+  color: var(--white);
+  font-size: 2rem;
+  margin-bottom: 1.7rem;
+}
+
+/* button */
+.btn-main {
+  border: 2px solid var(--yellow);
+  text-transform: uppercase;
+  border-radius: 5px;
+  padding: 10px 12px 12px 12px;
+  color: var(--white);
+  margin: 2rem;
+}
+.btn-main:hover {
+  text-decoration: none;
+  background-color: var(--yellow);
+  transition: 0.2s ease-in-out;
+}
+
+@media (max-width: 768px) {
+  .main-info h1 {
+    font-size: 1.5rem !important;
+  }
+  .typed-text {
+    font-size: 1.7rem !important;
+  }
+  .navbar-brand {
+    width: 5rem !important;
+  }
+}
