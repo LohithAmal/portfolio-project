@@ -6,7 +6,8 @@
   --dark: rgba(255, 255, 255, 0);
 }
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: "Poppins", sans-serif !important;
+  background-color: var(--white);
 }
 
 /* navbar */
@@ -102,5 +103,27 @@ nav ul li {
   }
   .navbar-brand {
     width: 5rem !important;
+  }
+}
+
+/* about me styling */
+.photo-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.profile-img {
+  width: 16rem;
+  border-radius: 50%;
+  padding: 0.3rem;
+  border: 1px solid var(--dark);
+}
+.heading {
+  color: var(--dark);
+  text-transform: uppercase;
+}
+@media (max-width: 468px) {
+  .profile-img {
+    width: 10rem;
   }
 }
