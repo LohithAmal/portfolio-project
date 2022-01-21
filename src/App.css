@@ -163,7 +163,7 @@ nav ul li {
 .services .box:hover {
   background: var(--yellow);
   border-bottom: 5px solid var(--dark);
-  transition: 0.2s ease-in-out;
+  transition: 0.3s ease-in-out;
 }
 .services .box:hover p {
   cursor: pointer;
@@ -179,5 +179,79 @@ nav ul li {
   }
   .services p {
     font-size: 1rem;
+  }
+}
+/* portfolio styling */
+
+.porfolio-wrapper {
+  background: var(--white);
+  padding: 3rem 0;
+}
+.portfolio-image {
+  width: 15rem;
+  border: 1px solid var(--yellow);
+  padding: 1rem 1rem;
+}
+.portfolio-image-box {
+  position: relative;
+  margin: 1rem;
+}
+
+.overflow {
+  position: absolute;
+  opacity: 0;
+  background: var(--dark);
+  width: 15rem;
+  height: 15rem;
+  top: 0;
+  border: 1px solid var(--yellow);
+  cursor: pointer;
+}
+.portfolio-image-box:hover .overflow {
+  opacity: 60%;
+  transition: 0.3s ease-in-out;
+}
+.portfolio-icon {
+  position: absolute;
+  opacity: 0;
+  margin-left: -8rem;
+  margin-top: 7rem;
+  color: var(--yellow);
+  font-size: 1.5rem;
+}
+.portfolio-image-box:hover .portfolio-icon {
+  opacity: 70%;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+/*  */
+.portfolio-image-popup {
+  width: 45rem;
+  padding: 1rem 2rem;
+}
+.hyper-link {
+  cursor: pointer;
+  color: var(--dark);
+}
+.hyper-link:hover {
+  color: red;
+}
+
+/* portfolio popup */
+@media (max-width: 570px) {
+  .portfolio-image-popupbox {
+    width: 100%;
+  }
+}
+@media (max-height: 927px) {
+  .popupbox-wrapper {
+    height: 40%;
+  }
+  .portfolio-image-popup {
+    width: 60%;
+  }
+  .hyper-link {
+    font-size: 80%;
   }
 }
