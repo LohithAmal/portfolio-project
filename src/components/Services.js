@@ -1,11 +1,11 @@
 import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faArtstation,
-  faDrupal,
-  faFirefox,
-} from "@fortawesome/free-brands-svg-icons";
-import { faDesktop, faFileCode } from "@fortawesome/free-solid-svg-icons";
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import {
+//   faArtstation,
+//   faDrupal,
+//   faFirefox,
+// } from "@fortawesome/free-brands-svg-icons";
+// import { faDesktop, faFileCode } from "@fortawesome/free-solid-svg-icons";
 const Services = () => {
   return (
     <div className="services">

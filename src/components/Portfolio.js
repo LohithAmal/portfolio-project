@@ -3,9 +3,7 @@ import Squid from "../squid.jpg";
 import Squidb from "../squid-1.jpg";
 import Covid from "../covid.jpg";
 import Smile from "../smile.jpg";
-import Password from "../password.jpg";
 import Pwa from "../pwa.jpg";
-import Weather from "../weather.jpg";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSearchPlus } from "@fortawesome/free-solid-svg-icons";
@@ -159,11 +157,7 @@ const Portfolio = () => {
         {/* squid store portfolio ----------------- */}
         <div className="image-box-wrapper row justify-content-center">
           <div className="portfolio-image-box" onClick={openPopupboxSquid}>
-            <img
-              className="portfolio-image"
-              src={Squid}
-              alt="squid store image"
-            />
+            <img className="portfolio-image" src={Squid} alt="squid store" />
             <div className="overflow"></div>
             <FontAwesomeIcon icon={faSearchPlus} className="portfolio-icon" />
           </div>
@@ -179,11 +173,7 @@ const Portfolio = () => {
           </div>
           {/*  COVID LIVE NEWS*/}
           <div className="portfolio-image-box" onClick={openPopupboxCovid}>
-            <img
-              className="portfolio-image"
-              src={Covid}
-              alt="Covid live image"
-            />
+            <img className="portfolio-image" src={Covid} alt="Covid live" />
             <div className="overflow"></div>
             <FontAwesomeIcon icon={faSearchPlus} className="portfolio-icon" />
           </div>
