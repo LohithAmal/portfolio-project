@@ -49,11 +49,11 @@ const Portfolio = () => {
   const openPopupboxSquid = () => {
     const content = (
       <>
-        {/* <img
+        <img
           className="portfolio-image-popup"
           src={Squidb}
           alt="squid store e-commerce"
-        /> */}
+        />
 
         <p>
           Ecommerce application build using MERN stack, MongoDB back end, a
