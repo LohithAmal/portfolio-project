@@ -21,13 +21,18 @@ const AboutMe = () => {
             ABOUT ME <hr />
           </h1>
           <p className="para">
-            A web developer successfully completed full stack web development
-            bootcamp from University of Toronto School of Continuing Studies. My
-            objective is to develop efficient and engaging web applications to
-            contribute the technology industry. I am a quality person who
-            dedicated to continuously research and study to sharpen skills and
-            knowledge therefore I am confident that I can switch to any stack or
-            technology easily.
+            Full-stack web developer leveraging Quality Engineering background
+            to build and maintain web applications with intuitive user
+            experience that keep up with the modernizing technology.
+            <br />
+            Earned a certificate in full-stack development from University of
+            Toronto.
+            <br />
+            Proved to be innovative problem-solver with a creative and congenial
+            personality ready to teamwork, learn and share.
+            <br />
+            Other than coding I do digital arts, logo designs and other graphic
+            designing works.
           </p>
         </div>
       </div>

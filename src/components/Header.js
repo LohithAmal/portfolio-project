@@ -1,5 +1,6 @@
 import React from "react";
 import Type from "react-typed";
+import resume from "../../src/amalresume.pdf";
 
 const Header = () => {
   return (
@@ -18,8 +19,8 @@ const Header = () => {
           backSpeed={60}
           loop
         />
-        <a href="#" className="btn-main">
-          Contact Me
+        <a href={resume} className="btn-main">
+          My Resume
         </a>
       </div>
     </div>

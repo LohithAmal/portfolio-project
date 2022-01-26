@@ -136,6 +136,8 @@ nav ul li {
   text-align: center;
   padding-bottom: 2rem;
   background: #f4f4f4;
+  text-decoration: none;
+  color: inherit;
 }
 .services h1 {
   color: var(--dark);
@@ -175,6 +177,9 @@ nav ul li {
 }
 .services .box:hover h3 {
   color: var(--white);
+}
+.service-link {
+  text-decoration: none;
 }
 @media (max-width: 1200px) {
   .services h3 {
