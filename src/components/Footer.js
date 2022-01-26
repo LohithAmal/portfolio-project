@@ -1,4 +1,6 @@
 import React from "react";
+import resume from "../../src/amalresume.pdf";
+import { Link } from "react-scroll";
 import {
   FacebookShareButton,
   FacebookIcon,
@@ -28,19 +30,56 @@ const Footer = () => {
           <div className="col-lg-3 col-md-2 col-sm-6">
             <div className="row">
               <div className="col">
-                <a className="footer-nav"> Home</a>
+                <Link smooth={true} to="home" className="footer-nav">
+                  {" "}
+                  Home
+                </Link>
                 <br />
-                <a className="footer-nav"> About Me</a>
+                <Link
+                  smooth={true}
+                  to="about"
+                  offset={-110}
+                  className="footer-nav"
+                >
+                  About Me
+                </Link>
                 <br />
-                <a className="footer-nav"> Services</a>
+                <Link
+                  smooth={true}
+                  to="services"
+                  offset={-110}
+                  className="footer-nav"
+                >
+                  {" "}
+                  Services
+                </Link>
                 <br />
               </div>
               <div className="col">
-                <a className="footer-nav"> portfolio</a>
+                <Link
+                  smooth={true}
+                  to="portfolio"
+                  className="nav-link"
+                  offset={-110}
+                  className="footer-nav"
+                >
+                  portfolio
+                </Link>
                 <br />
-                <a className="footer-nav"> Resume</a>
+                <a href={resume} className="footer-nav">
+                  Resume
+                </a>
                 <br />
-                <a className="footer-nav"> Contacts</a>
+                <Link
+                  smooth={true}
+                  to="contact"
+                  className="nav-link"
+                  offset={-110}
+                  className="footer-nav"
+                >
+                  {" "}
+                  Contacts
+                </Link>
               </div>
             </div>
           </div>
